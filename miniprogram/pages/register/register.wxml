@@ -1,0 +1,11 @@
+<view wx:if="{{!success}}">
+  <input bindinput="inputPhone" placeholder="Please input your phone number." />
+  <button class='button' bindtap='encrCodeGain' disabled='{{disabled}}'>{{butText}}</button>
+  <input bindinput="encrCodeRd" placeholder="Please input your encrypt code." />
+  <input type='password' bindinput="pwInput" placeholder="Please input your password." />
+  <input type='password' class='info-input' bindinput="pwRepeat" placeholder="Please repeat your password." />
+  <button bindtap='subMit'>SUBMIT</button>
+</view>
+<view wx:if="{{success}}">
+  <icon type="success" size="24" />success.
+</view>
