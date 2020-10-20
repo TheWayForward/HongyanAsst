@@ -19,6 +19,10 @@
   "sitemapLocation": "sitemap.json",
   "style": "v2",
   "usingComponents":{
+<<<<<<< Updated upstream
     "parser": "/utils/parser.min/parser"
+=======
+    "parser": "utils/parser.min/parser"
+>>>>>>> Stashed changes
   }
 }
